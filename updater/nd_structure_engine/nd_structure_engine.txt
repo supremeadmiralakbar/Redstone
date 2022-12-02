@@ -1,0 +1,10 @@
+"Updater" {
+  "Information" {
+    "Version" {
+      "Latest" "b7653f1d"
+    }
+  }
+  "Files" {
+    "Plugin" "Path_SM/plugins/nd_structure_engine.smx"
+  }
+}

@@ -1,0 +1,11 @@
+"Updater" {
+  "Information" {
+    "Version" {
+      "Latest" "6fd415af"
+    }
+  }
+  "Files" {
+    "Plugin" "Path_SM/plugins/sourcecomms.smx"
+    "Plugin" "Path_SM/translations/sourcecomms.phrases.txt"
+  }
+}
