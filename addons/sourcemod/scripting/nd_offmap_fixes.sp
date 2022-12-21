@@ -40,13 +40,13 @@ public Plugin myinfo =
 	url 		= "https://github.com/stickz/Redstone/"
 }
 
-//#define UPDATE_URL  "https://github.com/stickz/Redstone/raw/build/updater/nd_offmap_fixes/nd_offmap_fixes.txt"
-//#include "updater/standard.sp"
+#define UPDATE_URL  "https://github.com/stickz/Redstone/raw/build/updater/nd_offmap_fixes/nd_offmap_fixes.txt"
+#include "updater/standard.sp"
 
 public void OnPluginStart() 
 {
 	HAX = new ArrayList(6);	
-    	//AddUpdaterLibrary(); //auto-updater
+    	AddUpdaterLibrary(); //auto-updater
 
 	// Add late loading support
 	if (ND_RoundStarted())
